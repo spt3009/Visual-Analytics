@@ -2,12 +2,24 @@ project:
   type: website
 
 website:
-  title: "Visual Analytics"
+  title: "ISSS608 Visual Analytics Coursework"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    - text: "Hands-on Exercise"
+      menu:
+        - text: "Hands-on Exercise 0"
+          href: hands-On Exe00/hands-On Exe00.html
+    - text: "In-class Exercise"
+      menu:
+        - text: "In-class Exercise1"
+    - text: "Take-home Exercise" 
+      menu:
+        - text: "Take-home Exercise1"
+    
+right:
+  - href: index.qmd
+    text: Home
+  - about.qmd
 
 format:
   html:
